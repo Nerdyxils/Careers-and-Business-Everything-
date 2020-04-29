@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#"><img src="images/CBE-bg.png" alt="logo"></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>Welcome to Career and <br> Business Everything!</h1>
+			<p>We specialize in attending to all your career needs 
+			and <br> helping you get to the next level of progress.</p>
+			<button class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
+		</div>
+	</header>
+
+	<div class="container features">
+		<div class="row" id="about">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Write CV/Resume and <br> Cover Letters</h3>
+				<img src="images/RESUME.png" class="img-fluid" height="400px" width="300px">
+				<p>Send us a copy of your CV/Resume and one of our professional CV/Resume writers will assess it and email you with their 
+					suggestions as to how it could be improved to ensure it is viewed more positively by a prospective employer.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Write Your Business <br>Proposal</h3>
+				<img src="images/bus-proposal.jpg" class="img-fluid" height="250px" width="250px">
+				<p>Get an excellently written business plan that would astound prospective investors. Our team of professionals dedicate their duties in helping you get the right amount of funds to start your 
+					business by adequately portraying your ideas in your business plan.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">	
+				<h3 class="feature-title">Get in Touch!</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" name="">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email Address" name="email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="4"></textarea>
+				</div>
+				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+			</div>
+		</div> 
+	</div>
+	
+	<footer class="page-footer">
+		<div class="container" id="contact">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+					<p>Careers and Business Everything is an organization that prioritize the needs of it's clients giving them an utmost service that warrants a comeback.</p>
+					<p>Kindly write us an email or call us on any of the following numbers let our partners review your needs and send you a pro forma invoice. We anticipate to help you get better.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>10, Olaleye Street, Somolu, Lagos.
+					<br/>info@mywebsite.com
+					<br/>+234 808 442 0467
+					<br/>+234 812 707 3349</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center">© Xilssilas 2020</div>
+	</footer>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
